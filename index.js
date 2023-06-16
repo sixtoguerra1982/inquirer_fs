@@ -7,7 +7,7 @@ async function inputMain(){
         type: 'list',
         name: 'options',
         message: 'Seleccione una Opcion',
-        // default: 'blue',
+        default: 'Mostrar lo que dice',
         choices: ['Crear un archivo', 'Escribir algo en el archivo', 'Mostrar lo que dice', 'Salir']
     })
         .then(answers => {
