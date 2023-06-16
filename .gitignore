@@ -1,2 +1,3 @@
 # OMITIR CARPETA NODE_MODULES
 node_modules
+*.pdf
